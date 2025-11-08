@@ -1,5 +1,5 @@
 # Lifetime-Mahjong-Performance
-Every friday I play mahjong with my friends for penny a point stakes. Here is out lifetime performance and payout data. 
+Most fridays I play mahjong with my friends for penny a point stakes. Here is out lifetime performance and payout data. 
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules
@@ -22,5 +22,5 @@ We play MCR rules with a few house rules that add some scoring rules
 | 88 | 500  | Limit Hand |
 
 ## Current Performance 
-[results_graph]: https://github.com/Conair94/Lifetime-Mahjong-Performance/net_profit.png
-![results graph][results_graph]
+big props to Helio for crushing it during the October games, and being our current leader. 
+![results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/net_profit.png)
