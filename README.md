@@ -20,3 +20,6 @@ We play MCR rules with a few house rules that add some scoring rules
 | 44-63 | 240  |  |
 | 64-87 | 360  |  |
 | 88 | 500  | Limit Hand |
+
+## Current Performance 
+![results] (net_profit.png)
