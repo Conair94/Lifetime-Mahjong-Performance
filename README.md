@@ -22,4 +22,4 @@ We play MCR rules with a few house rules that add some scoring rules
 | 88 | 500  | Limit Hand |
 
 ## Current Performance 
-![results] (net_profit.png)
+![results](net_profit.png)
