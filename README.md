@@ -1,7 +1,7 @@
 # Lifetime-Mahjong-Performance
-Most fridays I play mahjong with my friends for penny a point stakes. Here is out lifetime performance and payout data. 
+Most fridays I play mahjong with my friends for penny a point stakes. Here is out lifetime performance and payout data. The data is divided into Season 1 (when Noah lived in Maryland) and Season 2 (all games since). 
 
-## Current Performance 
+## Current Season Performance 
 Big props to Helio for crushing it during the October games, and being our current leader.
 
 Big props to Sam for continuing to play with us. 
