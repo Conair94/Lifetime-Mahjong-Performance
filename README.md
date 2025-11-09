@@ -1,5 +1,7 @@
 # Lifetime-Mahjong-Performance
-Most fridays I play mahjong with my friends for penny a point stakes. Here is out lifetime performance and payout data. The data is divided into Season 1 (when Noah lived in Maryland) and Season 2 (all games after Noah moved). 
+Most fridays I play mahjong with my friends for penny a point stakes. As an excuse to practice some time series analysis and once and for all establish who is the best, here is out lifetime performance and payout data. The data is divided into Season 1 (when Noah lived in Maryland) and Season 2 (all games after Noah moved). 
+
+For more in depth data check Processing.ipynb
 
 ## Current Season Performance 
 Big props to Helio for crushing it during the October games, and being our current leader.
@@ -11,8 +13,7 @@ Big props to Sam for continuing to play with us.
 We play MCR rules with a few house rules that add some scoring rules:
 1. If you win a fully concealed vertically symmetric hand and simultaneously flip your entire stack of 14 tiles 180 degrees to face the table without dropping any tiles it becomes a limit hand.
 2. If you win on replacement once its 8 Fan, twice is 24 Fan, thrice is Limit.
-3. If you win on replacement AND the winning tile is a 1 dot or 5 dot, then this is a Limit hand.
-4. 
+3. If you win on replacement or last tile AND the winning tile is a 1 dot or 5 dot, then this is a Limit hand. (plucking the moon from bottom of the ocean, plucking the plum from the rooftop)
 ## Fan to Points
 
 | Fan        | Points/Cents          | Nickname  |
