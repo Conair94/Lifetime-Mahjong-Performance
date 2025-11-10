@@ -9,6 +9,9 @@ Big props to Helio for crushing it during the October games, and being our curre
 Big props to Sam for continuing to play with us. 
 ![results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/net_profit.png)
 
+Here we have a graph of only guests and their performance. 
+![guest results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/net_profit_guests.png)
+
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
 1. If you win a fully concealed vertically symmetric hand and simultaneously flip your entire stack of 14 tiles 180 degrees to face the table without dropping any tiles it becomes a limit hand.
