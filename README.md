@@ -17,6 +17,8 @@ We play MCR rules with a few house rules that add some scoring rules:
 1. If you win a fully concealed vertically symmetric hand and simultaneously flip your entire stack of 14 tiles 180 degrees to face the table without dropping any tiles it becomes a limit hand.
 2. If you win on replacement once its 8 Fan, twice is 24 Fan, thrice is Limit.
 3. If you win on replacement or last tile AND the winning tile is a 1 dot or 5 dot, then this is a Limit hand. (plucking the moon from bottom of the ocean, plucking the plum from the rooftop)
+4. You can win a 7 pairs with 2 identical pairs (aka 5 pairs and a concealed kong) but you may not call it as a concealed kong and it must always be a fully concealed hand (can never win 7 pairs if a set is called).
+5. If you win a hand that is two limit hand worths, then its double limit (I.e. earthly all-green) 
 
 ## Current betting spreads 
 TBD 
