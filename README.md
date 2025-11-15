@@ -7,10 +7,10 @@ For more in depth data check Processing.ipynb
 Big props to Helio for crushing it during the October games, and being our current leader.
 
 Big props to Sam for continuing to play with us. 
-![results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/net_profit.png)
+![results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/net_profit.png)
 
 Here we have a graph of only guests and their performance. 
-![guest results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/net_profit_guests.png)
+![guest results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/net_profit_guests.png)
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
