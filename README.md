@@ -27,8 +27,13 @@ Oscar beats Helio
 Sam wins 
 7:1
 
+Helio wins
+3:2
+
 There is a blowout (only one person is positive) 
 4:1
+
+
 
 ## Fan to Points
 
