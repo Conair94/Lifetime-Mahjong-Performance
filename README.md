@@ -6,10 +6,10 @@ For more in depth data check Processing.ipynb
 ### Most Recent Night: 02/06/2026 (9 Hands played)
 | Player | Net Profit | Highest Hand | Hands Won | Δ Avg Points per hand |
 | :--- | :--- | :--- | :--- | :--- |
-| Connor | +240 | 320 | 3 | +2.29 |
-| Helio | +220 | 256 | 2 | -0.69 |
-| Oscar | -160 | 64 | 3 | -29.33 |
-| Sam | -300 | 32 | 1 | +0.38 |
+| Connor | $\color{green}{+240}$ | 320 | 3 | $\color{green}{+2.29}$ |
+| Helio | $\color{green}{+220}$ | 256 | 2 | $\color{red}{-0.69}$ |
+| Oscar | $\color{red}{-160}$ | 64 | 3 | $\color{red}{-29.33}$ |
+| Sam | $\color{red}{-300}$ | 32 | 1 | $\color{green}{+0.38}$ |
 
 ## Current Season Performance 
 Big props to Helio for crushing it during the October games, and being our current leader.
@@ -36,17 +36,17 @@ Histograms of winning hand sizes (Points) for self-drawn and non-self-drawn hand
 
 | Player | Games Played | Win Rate | Avg Win Fan | Avg Win Points | Avg Loss Points | Net Profit | Expected Points Per Hand |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Connor | 74 | 28.38% | 7.5 | 141.7 | -42.0 | 748 | 10.11 |
-| Helio | 74 | 28.38% | 9.4 | 199.6 | -38.0 | 2178 | 29.43 |
-| Sam | 74 | 8.11% | 5.5 | 109.3 | -48.9 | -2670 | -36.08 |
-| Guest (aggregate) | 74 | 35.14% | 4.6 | 86.5 | -52.2 | -256 | -3.46 |
-| Ruohan | 23 | 34.78% | 4.5 | 72.0 | -59.7 | -320 | -13.91 |
-| Oscar | 12 | 41.67% | 3.6 | 54.4 | -52.6 | -96 | -8.0 |
-| Drew | 10 | 20.00% | 7.0 | 224.0 | -50.0 | 48 | 4.8 |
-| Nick | 9 | 55.56% | 5.2 | 92.8 | -68.0 | 192 | 21.33 |
-| Brandon | 8 | 12.50% | 4.0 | 64.0 | -30.9 | -152 | -19.0 |
-| Lixin | 6 | 50.00% | 4.3 | 74.7 | -37.3 | 112 | 18.67 |
-| Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 | -40 | -6.67 |
+| Connor | 74 | 28.38% | 7.5 | 141.7 | -42.0 | $\color{green}{748}$ | 10.11 |
+| Helio | 74 | 28.38% | 9.4 | 199.6 | -38.0 | $\color{green}{2178}$ | 29.43 |
+| Sam | 74 | 8.11% | 5.5 | 109.3 | -48.9 | $\color{red}{-2670}$ | -36.08 |
+| Guest (aggregate) | 74 | 35.14% | 4.6 | 86.5 | -52.2 | $\color{red}{-256}$ | -3.46 |
+| Ruohan | 23 | 34.78% | 4.5 | 72.0 | -59.7 | $\color{red}{-320}$ | -13.91 |
+| Oscar | 12 | 41.67% | 3.6 | 54.4 | -52.6 | $\color{red}{-96}$ | -8.0 |
+| Drew | 10 | 20.00% | 7.0 | 224.0 | -50.0 | $\color{green}{48}$ | 4.8 |
+| Nick | 9 | 55.56% | 5.2 | 92.8 | -68.0 | $\color{green}{192}$ | 21.33 |
+| Brandon | 8 | 12.50% | 4.0 | 64.0 | -30.9 | $\color{red}{-152}$ | -19.0 |
+| Lixin | 6 | 50.00% | 4.3 | 74.7 | -37.3 | $\color{green}{112}$ | 18.67 |
+| Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 | $\color{red}{-40}$ | -6.67 |
 
 ## Top 5 Largest Hands
 | Date | Player | Fan | Points | Self Drawn |
