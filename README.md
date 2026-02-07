@@ -15,6 +15,10 @@ Here we have a graph of only guests and their performance.
 This histogram shows the distribution of winning hand sizes (Fan).
 ![fan distribution](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/fan_distribution.png)
 
+Histograms of winning hand sizes (Points) for self-drawn and non-self-drawn hands.
+![self drawn points](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/win_points_self_drawn.png)
+![non self drawn points](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/win_points_non_self_drawn.png)
+
 ## Season 2 Player Statistics
 **Average Games per Night:** 6.33  
 **Dealer Win Rate:** 17.50%  
