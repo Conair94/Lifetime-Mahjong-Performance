@@ -12,7 +12,10 @@ Big props to Sam for continuing to play with us.
 Here we have a graph of only guests and their performance. 
 ![guest results graph](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/net_profit_guests.png)
 
-## Season 2 Statistics
+This histogram shows the distribution of winning hand sizes (Fan).
+![fan distribution](https://github.com/Conair94/Lifetime-Mahjong-Performance/blob/main/Season%202%20Data/fan_distribution.png)
+
+## Season 2 Player Statistics
 **Average Games per Night:** 6.33  
 **Dealer Win Rate:** 17.50%  
 **Self-Draw Win Rate:** 25.68%  
