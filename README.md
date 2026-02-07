@@ -40,7 +40,7 @@ Histograms of winning hand sizes (Points) for self-drawn and non-self-drawn hand
 | Lixin | 6 | 50.00% | 4.3 | 74.7 | -37.3 |
 | Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 |
 
-## Top 3 Largest Hands
+## Top 5 Largest Hands
 | Date | Player | Fan | Points | Self Drawn |
 | :--- | :--- | :--- | :--- | :--- |
 | 10/3/2025 | Helio | 32 | 960 | Yes |
