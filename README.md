@@ -6,10 +6,10 @@ For more in depth data check Processing.ipynb
 ### Most Recent Night: 02/06/2026 (9 Hands played)
 | Player | Net Profit | Highest Hand | Hands Won | Δ Avg Points per hand |
 | :--- | :--- | :--- | :--- | :--- |
-| Connor | <font color="green">+240</font> | 320 | 3 | <font color="green">+2.29</font> |
-| Helio | <font color="green">+220</font> | 256 | 2 | <font color="red">-0.69</font> |
-| Oscar | <font color="red">-160</font> | 64 | 3 | <font color="red">-29.33</font> |
-| Sam | <font color="red">-300</font> | 32 | 1 | <font color="green">+0.38</font> |
+| Connor | +240 | 320 | 3 | +2.29 |
+| Helio | +220 | 256 | 2 | -0.69 |
+| Oscar | -160 | 64 | 3 | -29.33 |
+| Sam | -300 | 32 | 1 | +0.38 |
 
 ## Current Season Performance 
 Big props to Helio for crushing it during the October games, and being our current leader.
