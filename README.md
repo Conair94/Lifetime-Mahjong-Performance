@@ -54,6 +54,8 @@ Histograms of winning hand sizes (Points) for self-drawn and non-self-drawn hand
 | 10/3/2025 | Helio | 32 | 960 | Yes |
 | 1/28/2026 | Helio | 23 | 256 | No |
 | 12/12/2025 | Connor | 19 | 320 | No |
+| 8/29/2025 | Connor | 18 | 320 | No |
+| 2/6/2026 | Connor | 17 | 320 | No |
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
