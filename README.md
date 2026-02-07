@@ -33,7 +33,9 @@ Helio wins
 There is a blowout (only one person is positive) 
 4:1
 
+I recently came into possession of many Moroccan geodes and we are running a betting special, 
 
+Win over 5$ and get a free geode. 
 
 ## Fan to Points
 
