@@ -23,8 +23,10 @@ We play MCR rules with a few house rules that add some scoring rules:
 ## Current betting spreads 
 Oscar beats Helio
 5:2
+
 Sam wins 
 7:1
+
 There is a blowout (only one person is positive) 
 4:1
 
