@@ -21,16 +21,17 @@ Here we have a graph of only guests and their performance.
 
 | Player | Games Played | Win Rate | Avg Win Fan | Avg Win Points | Avg Loss Points |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Nick | 9 | 55.56% | 5.2 | 92.8 | -68.0 |
-| Lixin | 6 | 50.00% | 4.3 | 74.7 | -37.3 |
-| Oscar | 12 | 41.67% | 3.6 | 54.4 | -52.6 |
-| Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 |
-| Ruohan | 23 | 30.43% | 4.0 | 64.0 | -64.0 |
-| Drew | 10 | 30.00% | 6.0 | 160.0 | -52.6 |
-| Helio | 74 | 28.38% | 9.4 | 198.9 | -38.0 |
 | Connor | 74 | 28.38% | 7.5 | 141.7 | -42.0 |
-| Brandon | 8 | 12.50% | 4.0 | 64.0 | -30.9 |
+| Helio | 74 | 28.38% | 9.4 | 198.9 | -38.0 |
 | Sam | 74 | 8.11% | 5.5 | 109.3 | -49.0 |
+| Guest (aggregate) | 74 | 35.14% | 4.5 | 82.8 | -54.2 |
+| Ruohan | 23 | 30.43% | 4.0 | 64.0 | -64.0 |
+| Oscar | 12 | 41.67% | 3.6 | 54.4 | -52.6 |
+| Drew | 10 | 30.00% | 6.0 | 160.0 | -52.6 |
+| Nick | 9 | 55.56% | 5.2 | 92.8 | -68.0 |
+| Brandon | 8 | 12.50% | 4.0 | 64.0 | -30.9 |
+| Lixin | 6 | 50.00% | 4.3 | 74.7 | -37.3 |
+| Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 |
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
