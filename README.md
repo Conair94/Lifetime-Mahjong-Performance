@@ -17,6 +17,8 @@ Here we have a graph of only guests and their performance.
 **Dealer Win Rate:** 17.50%  
 **Self-Draw Win Rate:** 25.68%  
 
+[View Raw Data (CSV)](Season%202%20Data/player_stats.csv)
+
 | Player | Games Played | Win Rate | Avg Win Fan | Avg Win Points | Avg Loss Points |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Nick | 9 | 55.56% | 5.2 | 92.8 | -68.0 |
