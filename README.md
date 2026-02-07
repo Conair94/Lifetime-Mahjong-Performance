@@ -21,7 +21,12 @@ We play MCR rules with a few house rules that add some scoring rules:
 5. If you win a hand that is two limit hand worths, then its double limit (I.e. earthly all-green) 
 
 ## Current betting spreads 
-TBD 
+Oscar beats Helio
+5:2
+Sam wins 
+7:1
+There is a blowout (only one person is positive) 
+4:1
 
 ## Fan to Points
 
