@@ -19,16 +19,16 @@ Here we have a graph of only guests and their performance.
 
 | Player | Games Played | Win Rate | Avg Win Fan |
 | :--- | :--- | :--- | :--- |
-| Sam | 74 | 8.11% | 5.5 |
+| Nick | 9 | 55.56% | 5.2 |
+| Lixin | 6 | 50.00% | 4.3 |
 | Oscar | 12 | 41.67% | 3.6 |
-| Helio | 74 | 28.38% | 9.4 |
-| Connor | 74 | 28.38% | 7.5 |
 | Alice | 6 | 33.33% | 4.5 |
 | Ruohan | 23 | 30.43% | 4.0 |
-| Lixin | 6 | 50.00% | 4.3 |
-| Brandon | 8 | 12.50% | 4.0 |
-| Nick | 9 | 55.56% | 5.2 |
 | Drew | 10 | 30.00% | 6.0 |
+| Helio | 74 | 28.38% | 9.4 |
+| Connor | 74 | 28.38% | 7.5 |
+| Brandon | 8 | 12.50% | 4.0 |
+| Sam | 74 | 8.11% | 5.5 |
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
