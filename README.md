@@ -41,11 +41,11 @@ Histograms of winning hand sizes (Points) for self-drawn and non-self-drawn hand
 | Alice | 6 | 33.33% | 4.5 | 100.0 | -60.0 |
 
 ## Top 3 Largest Hands
-| Date | Fan | Points | Self Drawn |
-| :--- | :--- | :--- | :--- |
-| 10/3/2025 | 32 | 960 | Yes |
-| 1/28/2026 | 23 | 256 | No |
-| 12/12/2025 | 19 | 320 | No |
+| Date | Player | Fan | Points | Self Drawn |
+| :--- | :--- | :--- | :--- | :--- |
+| 10/3/2025 | Helio | 32 | 960 | Yes |
+| 1/28/2026 | Helio | 23 | 256 | No |
+| 12/12/2025 | Connor | 19 | 320 | No |
 
 ## Rules
 We play MCR rules with a few house rules that add some scoring rules:
