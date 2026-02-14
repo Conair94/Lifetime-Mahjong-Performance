@@ -1,2 +1,4 @@
 Season 1 Data/.DS_Store
 Season 1 Data/.DS_Store
+__pycache__/
+*.pyc
