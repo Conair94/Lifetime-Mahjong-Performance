@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
-
-# Configuration
-HOUSE_EDGE = 1.10  # 10% House Edge
-DATA_PATH = 'Season 2 Data/data.csv'
-OUTPUT_PATH = 'Gambling and Forecasting/Betting_Odds.md'
+import os
+from . import config
 
 def prob_to_moneyline(prob, house_edge_multiplier=1.0):
     if prob <= 0: return 99999
@@ -22,20 +19,34 @@ def prob_to_moneyline(prob, house_edge_multiplier=1.0):
         
     return int(round(moneyline))
 
-def generate_odds():
-    try:
-        df = pd.read_csv(DATA_PATH)
-    except FileNotFoundError:
-        print(f"Error: {DATA_PATH} not found.")
+def generate_odds(df_data):
+    print("Checking if betting odds need generation...")
+    
+    # Check night count
+    current_night_count = df_data['date'].nunique()
+    previous_night_count = 0
+    
+    if os.path.exists(config.PROCESSED_NIGHT_COUNT_PATH):
+        with open(config.PROCESSED_NIGHT_COUNT_PATH, "r") as f:
+            try:
+                previous_night_count = int(f.read().strip())
+            except ValueError:
+                previous_night_count = 0
+    
+    print(f"Current Nights: {current_night_count}, Previous Processed: {previous_night_count}")
+    
+    if current_night_count <= previous_night_count:
+        print("No new nights detected. Skipping betting odds generation.")
         return
 
-    # Identify player columns
-    meta_cols = ['date', 'game_num', 'order_starting_at_east', 'fan', 'from_wall', 'dealer_win', 'tiles_remaining']
-    player_cols = [c for c in df.columns if c not in meta_cols]
-    df[player_cols] = df[player_cols].fillna(0)
+    print("New night detected! Generating betting odds...")
 
+    # Identify player columns
+    meta_cols = ['date', 'game_num', 'order_starting_at_east', 'fan', 'from_wall', 'dealer_win', 'tiles_remaining', 'date_obj', 'guest']
+    player_cols = [c for c in df_data.columns if c not in meta_cols]
+    
     # --- 1. Nightly Winner (Net Profit) ---
-    nightly_results = df.groupby('date')[player_cols].sum()
+    nightly_results = df_data.groupby('date')[player_cols].sum()
 
     def get_nightly_winner(row):
         m = row.max()
@@ -55,28 +66,26 @@ def generate_odds():
     sam_prob = probs.get('sam', 0)
     field_prob = 1 - sam_prob
     
-    sam_ml = prob_to_moneyline(sam_prob, HOUSE_EDGE)
-    field_ml = prob_to_moneyline(field_prob, HOUSE_EDGE)
+    sam_ml = prob_to_moneyline(sam_prob, config.HOUSE_EDGE)
+    field_ml = prob_to_moneyline(field_prob, config.HOUSE_EDGE)
     
     sam_sign = "+" if sam_ml > 0 else ""
     field_sign = "+" if field_ml > 0 else ""
 
     # --- 3. High Hand of the Night ---
-    max_fans = df.groupby('date')['fan'].max()
-    fan_threshold = 15.5
-    over_fan_prob = (max_fans > fan_threshold).mean()
+    max_fans = df_data.groupby('date')['fan'].max()
+    over_fan_prob = (max_fans > config.FAN_THRESHOLD).mean()
     under_fan_prob = 1 - over_fan_prob
     
-    over_fan_ml = prob_to_moneyline(over_fan_prob, HOUSE_EDGE)
-    under_fan_ml = prob_to_moneyline(under_fan_prob, HOUSE_EDGE)
+    over_fan_ml = prob_to_moneyline(over_fan_prob, config.HOUSE_EDGE)
+    under_fan_ml = prob_to_moneyline(under_fan_prob, config.HOUSE_EDGE)
     
     over_fan_sign = "+" if over_fan_ml > 0 else ""
     under_fan_sign = "+" if under_fan_ml > 0 else ""
 
     # --- Generate Markdown Output ---
     # Calculate Next Friday 5PM
-    df['date_dt'] = pd.to_datetime(df['date'])
-    last_date = df['date_dt'].max()
+    last_date = df_data['date_obj'].max()
     days_ahead = (4 - last_date.weekday() + 7) % 7
     if days_ahead == 0:
         days_ahead = 7
@@ -95,7 +104,7 @@ def generate_odds():
     
     for player, prob in probs.items():
         if player.lower() == 'nick': continue
-        ml = prob_to_moneyline(prob, HOUSE_EDGE)
+        ml = prob_to_moneyline(prob, config.HOUSE_EDGE)
         sign = "+" if ml > 0 else ""
         md_content += f"| **{player.capitalize()}** | **{sign}{ml}** |\n"
 
@@ -107,9 +116,9 @@ def generate_odds():
     md_content += f"| **The Field (Any Other Player)** | **{field_sign}{field_ml}** |\n"
 
     md_content += "\n## 🀄 Highest Hand Over/Under\n"
-    md_content += f"*Will the highest scoring hand (Fan) of the night be Over or Under {fan_threshold}?*\n\n"
-    md_content += f"* **Over {fan_threshold}**: **{over_fan_sign}{over_fan_ml}** ({over_fan_prob*100:.1f}%)\n"
-    md_content += f"* **Under {fan_threshold}**: **{under_fan_sign}{under_fan_ml}** ({under_fan_prob*100:.1f}%)\n"
+    md_content += f"*Will the highest scoring hand (Fan) of the night be Over or Under {config.FAN_THRESHOLD}?*\n\n"
+    md_content += f"* **Over {config.FAN_THRESHOLD}**: **{over_fan_sign}{over_fan_ml}** ({over_fan_prob*100:.1f}%)\n"
+    md_content += f"* **Under {config.FAN_THRESHOLD}**: **{under_fan_sign}{under_fan_ml}** ({under_fan_prob*100:.1f}%)\n"
 
     md_content += "\n---\n"
     md_content += "### 💡 How to Read Money Lines\n"
@@ -117,10 +126,11 @@ def generate_odds():
     md_content += "* **Positive Odds (+):** Indicates the underdog. The number represents the **profit** you would make on a $100 bet. (e.g., **+200** means a $100 bet wins $200 in profit, returning $300 total).\n"
     md_content += "* **Negative Odds (-):** Indicates the favorite. The number represents how much you need to **bet** to make $100 in profit. (e.g., **-150** means you must bet $150 to win $100 in profit, returning $250 total).\n"
 
-    with open(OUTPUT_PATH, 'w') as f:
+    with open(config.BETTING_ODDS_PATH, 'w') as f:
         f.write(md_content)
     
-    print(f"Successfully generated odds to {OUTPUT_PATH}")
-
-if __name__ == "__main__":
-    generate_odds()
+    # Update counter file
+    with open(config.PROCESSED_NIGHT_COUNT_PATH, "w") as f:
+        f.write(str(current_night_count))
+        
+    print(f"Successfully generated odds to {config.BETTING_ODDS_PATH}")
