@@ -111,6 +111,12 @@ def generate_odds():
     md_content += f"* **Over {fan_threshold}**: **{over_fan_sign}{over_fan_ml}** ({over_fan_prob*100:.1f}%)\n"
     md_content += f"* **Under {fan_threshold}**: **{under_fan_sign}{under_fan_ml}** ({under_fan_prob*100:.1f}%)\n"
 
+    md_content += "\n---\n"
+    md_content += "### 💡 How to Read Money Lines\n"
+    md_content += "The Money Line is a way to express betting odds based on a $100 baseline:\n"
+    md_content += "* **Positive Odds (+):** Indicates the underdog. The number represents the **profit** you would make on a $100 bet. (e.g., **+200** means a $100 bet wins $200 in profit, returning $300 total).\n"
+    md_content += "* **Negative Odds (-):** Indicates the favorite. The number represents how much you need to **bet** to make $100 in profit. (e.g., **-150** means you must bet $150 to win $100 in profit, returning $250 total).\n"
+
     with open(OUTPUT_PATH, 'w') as f:
         f.write(md_content)
     

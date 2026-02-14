@@ -65,7 +65,7 @@ We play MCR rules with a few house rules that add some scoring rules:
 4. You can win a 7 pairs with 2 identical pairs (aka 5 pairs and a concealed kong) but you may not call it as a concealed kong and it must always be a fully concealed hand (can never win 7 pairs if a set is called).
 5. If you win a hand that is two limit hand worths, then its double limit (I.e. earthly all-green) 
 
-## [Current Nightly Betting Odds](Gambling%20and%20Forecasting/Betting_Odds.md)
+## [Current Weekly Betting Odds](Gambling%20and%20Forecasting/Betting_Odds.md)
 
 ## Fan to Points
 

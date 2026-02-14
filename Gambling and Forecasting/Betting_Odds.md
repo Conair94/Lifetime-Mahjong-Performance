@@ -26,3 +26,9 @@
 
 * **Over 15.5**: **-122** (50.0%)
 * **Under 15.5**: **-122** (50.0%)
+
+---
+### 💡 How to Read Money Lines
+The Money Line is a way to express betting odds based on a $100 baseline:
+* **Positive Odds (+):** Indicates the underdog. The number represents the **profit** you would make on a $100 bet. (e.g., **+200** means a $100 bet wins $200 in profit, returning $300 total).
+* **Negative Odds (-):** Indicates the favorite. The number represents how much you need to **bet** to make $100 in profit. (e.g., **-150** means you must bet $150 to win $100 in profit, returning $250 total).
