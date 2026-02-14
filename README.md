@@ -3,13 +3,13 @@ Most Fridays I play mahjong with my friends for penny a point stakes. As an excu
 
 For more in depth data check Processing.ipynb
 
-### Most Recent Night: 02/06/2026 (9 Hands played)
+### Most Recent Night: 02/13/2026 (11 Hands played)
 | Player | Net Profit | Highest Hand | Hands Won | Δ Avg Points per hand | Z-Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Connor | $\color{green}{+240}$ | 320 | 3 | $\color{green}{+2.29}$ | +0.16 |
-| Helio | $\color{green}{+220}$ | 256 | 2 | $\color{red}{-0.69}$ | -0.04 |
-| Oscar | $\color{red}{-160}$ | 64 | 3 | $\color{red}{-29.33}$ | -0.53 |
-| Sam | $\color{red}{-300}$ | 32 | 1 | $\color{green}{+0.38}$ | +0.04 |
+| Helio | $\color{green}{+288}$ | 384 | 2 | $\color{red}{-3.25}$ | -0.02 |
+| Sam | $\color{green}{+204}$ | 256 | 4 | $\color{green}{+54.63}$ | +0.78 |
+| Connor | $\color{red}{-116}$ | 256 | 2 | $\color{red}{-20.65}$ | -0.18 |
+| Eileen | $\color{red}{-376}$ | 96 | 3 | $\color{red}{-34.18}$ | -34.18 |
 
 ## Current Season Performance 
 Big props to Helio for crushing it during the October games, and being our current leader.
